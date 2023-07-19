@@ -1,0 +1,57 @@
+.hero {
+    height: calc(100vh - 71px);
+  .title {
+    color: #000;
+  }
+  .fonction {
+    color: #1f1d1d75;
+  }
+  .description {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dbdfd5;
+  }
+  .image {
+    width: 50%;
+    -webkit-animation: animate 2s infinite ease alternate;
+    animation: animate 2s infinite ease alternate;
+    transform: rotateY(360deg);
+    transition: 4s;
+&:hover{
+    transition: .4;
+    -webkit-animation: click 2s ease alternate;
+    animation: click 2s ease alternate ;
+}
+  }
+}
+@-webkit-keyframes animate {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(25px);
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(25px);
+  }
+}
+
+@-webkit-keyframes click{
+    to{
+        transform: rotateY(180deg);
+    }
+};
+
+
+@keyframes click{
+    to{
+        transform: rotateY(180deg);
+    }
+}
