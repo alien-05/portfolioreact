@@ -1,15 +1,15 @@
 .hero {
-    height: calc(100vh - 71px);
+  height: calc(100vh - 71px);
   .title {
-    color: #000;
+    color: #1877f2;
   }
   .fonction {
-    color: #1f1d1d75;
+    color: #4078c0 !important;
   }
   .description {
     font-size: 18px;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: #dbdfd5;
   }
   .image {
@@ -18,11 +18,31 @@
     animation: animate 2s infinite ease alternate;
     transform: rotateY(360deg);
     transition: 4s;
-&:hover{
-    transition: .4;
-    -webkit-animation: click 2s ease alternate;
-    animation: click 2s ease alternate ;
-}
+    &:hover {
+      transition: 0.4;
+      -webkit-animation: click 2s ease alternate;
+      animation: click 2s ease alternate;
+    }
+  }
+  .icons-social {
+    span {
+      // font-size: 28px !important;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.9;
+        position:relative;
+      top: 2px;
+      }
+    }
+    .instagram {
+      color: #fd1d1d;
+    }
+    .facebook {
+      color: #1877f2;
+    }
+    .github {
+      color: #4078c0;
+    }
   }
 }
 @-webkit-keyframes animate {
@@ -43,15 +63,14 @@
   }
 }
 
-@-webkit-keyframes click{
-    to{
-        transform: rotateY(180deg);
-    }
-};
+@-webkit-keyframes click {
+  to {
+    transform: rotateY(180deg);
+  }
+}
 
-
-@keyframes click{
-    to{
-        transform: rotateY(180deg);
-    }
+@keyframes click {
+  to {
+    transform: rotateY(180deg);
+  }
 }

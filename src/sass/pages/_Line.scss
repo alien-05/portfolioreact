@@ -1,0 +1,8 @@
+.line {
+  span {
+    color: #fffafa;
+    &:nth-child(odd) {
+      transform: rotate(25deg);
+    }
+  }
+}

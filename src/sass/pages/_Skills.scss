@@ -1,0 +1,86 @@
+.skills {
+  .skill {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid white;
+    -webkit-clip-path: polygon(
+      51% 39%,
+      90% 18%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 18%
+    );
+    clip-path: polygon(
+      51% 39%,
+      90% 18%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 18%
+    );
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    border-radius: 50px 18px 18px 0px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    &:before {
+      content: "";
+      position: absolute;
+      background-color: #000;
+      width: 150px;
+      height: 75px;
+      border-radius: 50%;
+      top: -35px;
+      z-index: 1;
+    }
+    &::after {
+      width: 100px;
+      height: 100px;
+    }
+    .effect{
+      width: 40px;
+      height: 40px;
+      background: #000;
+      border-radius: 50%;
+      left: 3%;
+      top: 7%;
+    }
+    .icon {
+      top: 1%;
+      font-size: 25px;
+      right: 5%;
+      &.figma {
+        color: #f14d1d;
+      }
+      .html {
+        color: #e34f26;
+      }
+      .css {
+        color: #2965f1;
+      }
+      .react {
+        color: #00d8ff;
+      }
+      &.code {
+        color: #1877f2;
+      }
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
