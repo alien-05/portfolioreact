@@ -3,6 +3,9 @@ import Navbar from './Navbar';
 import Main from './Main';
 import Skills from './Skills';
 import Line from './Line';
+import Footer from './Footer';
+import About from './About';
+import Testimonials from './Testimonials';
 // import { Routes, Route } from 'react-router-dom';
 
 function App(props) {
@@ -10,8 +13,13 @@ function App(props) {
         <>
             <Navbar />
             <Main />
-<Line />
+            <Line />
+            <About />
+            <Line />
             <Skills />
+            <Line />
+            <Testimonials />
+            <Footer />
         </>
     );
 }

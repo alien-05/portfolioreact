@@ -1,10 +1,10 @@
 .hero {
   height: calc(100vh - 71px);
   .title {
-    color: #1877f2;
+    color: #FFDD03 ;
   }
   .fonction {
-    color: #4078c0 !important;
+    color: #FBC403;
   }
   .description {
     font-size: 18px;
@@ -26,22 +26,12 @@
   }
   .icons-social {
     span {
-      // font-size: 28px !important;
       cursor: pointer;
       &:hover {
         opacity: 0.9;
         position:relative;
       top: 2px;
       }
-    }
-    .instagram {
-      color: #fd1d1d;
-    }
-    .facebook {
-      color: #1877f2;
-    }
-    .github {
-      color: #4078c0;
     }
   }
 }
