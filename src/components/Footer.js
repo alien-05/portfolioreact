@@ -22,7 +22,7 @@ const Footer = (props) => {
                     <span className="me-3 fs-4 github"><AiFillGithub /></span>
                     <span className="fs-4 gmail"><BiLogoGmail /></span>
                 </div>
-                <div className="row mt-1 d-flex align-items-center">
+                <div className="row mt-1 d-flex flex-column flex-md-row align-items-center">
                     <div className="col-6">
                         <div className="copyright float-left ms-2 fw-bold">
                             {copyright}<AiOutlineCopyrightCircle  />- All rights reserved

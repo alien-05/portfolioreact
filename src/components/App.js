@@ -13,11 +13,11 @@ function App(props) {
         <>
             <Navbar />
             <Main />
-            <Line />
+            {/* <Line /> */}
             <About />
-            <Line />
+            {/* <Line /> */}
             <Skills />
-            <Line />
+            {/* <Line /> */}
             <Testimonials />
             <Footer />
         </>

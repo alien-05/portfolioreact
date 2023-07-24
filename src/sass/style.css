@@ -125,11 +125,11 @@ body {
     transform: rotateY(180deg);
   }
 }
-.line span {
-  color: #fffafa;
-}
-.line span:nth-child(odd) {
-  transform: rotate(25deg);
+.break {
+  width: 70px;
+  height: 8px;
+  display: block;
+  background: #fb0;
 }
 
 .skills .skill {
@@ -260,47 +260,42 @@ body {
 .about .image .avatar {
   border-radius: 25px;
 }
+.about .description p {
+  text-align: justify;
+}
 
-.testimo .swipe .swiper {
-  width: 240px;
-  height: 320px;
+.testimo .swiper {
+  height: 70vh;
 }
-.testimo .swipe .swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
+.testimo .swiper .swiper-slide {
+  margin: 0;
+  color: black;
 }
-.testimo .swipe .swiper-slide:nth-child(1n) {
-  background-color: rgb(206, 17, 17);
+.testimo .card {
+  border-radius: 10px 2px 12px 0px;
 }
-.testimo .swipe .swiper-slide:nth-child(2n) {
-  background-color: rgb(0, 140, 255);
+.testimo .card:before {
+  content: "";
+  position: absolute;
+  width: 115px;
+  height: 100px;
+  background-color: #0a0a0a;
+  border-radius: 50%;
+  top: -15%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.testimo .swipe .swiper-slide:nth-child(3n) {
-  background-color: rgb(10, 184, 111);
+.testimo .card img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -17%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
-.testimo .swipe .swiper-slide .swiper-slide:nth-child(4n) {
-  background-color: rgb(211, 122, 7);
-}
-.testimo .swipe .swiper-slide:nth-child(5n) {
-  background-color: rgb(118, 163, 12);
-}
-.testimo .swipe .swiper-slide:nth-child(6n) {
-  background-color: rgb(180, 10, 47);
-}
-.testimo .swipe .swiper-slide:nth-child(7n) {
-  background-color: rgb(35, 99, 19);
-}
-.testimo .swipe .swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
-}
-.testimo .swipe .swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
-}
-.testimo .swipe .swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
+.testimo .card .quote {
+  background-color: #f8b600;
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,6 @@
-.line {
-  span {
-    color: #fffafa;
-    &:nth-child(odd) {
-      transform: rotate(25deg);
-    }
-  }
+ .break{
+  width: 70px;
+  height: 8px;
+  display: block;
+  background: #fb0;
 }

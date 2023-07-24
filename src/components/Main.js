@@ -6,7 +6,7 @@ import logo from '../../src/imgs/12.jpg';
 function Main(props) {
     return (
         <>
-            <div className="container mt-0 mt-lg-3 hero d-flex flex-wrap align-items-center">
+            <div className="container mb-5 mb-lg-0 mt-0 mt-lg-3 hero d-flex flex-wrap align-items-center">
                 <div className="row mt-0 mt-lg-5">
                     <div className="col-12 col-lg-6">
                         <h1 className='title fs-1 text-center text-lg-start fw-bold pt-3 mb-0'>H-I WEB DEVELOPER </h1>

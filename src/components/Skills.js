@@ -1,4 +1,5 @@
 import React from 'react';
+import Line from  './Line';
 import { FaCode, FaCss3, FaFigma, FaHtml5, FaReact } from "react-icons/fa";
 // import Main from './Main';
 
@@ -13,12 +14,14 @@ function Skills(props) {
     }
 
     return (
-        <div className='skills mt-5 mb-5 vh-100'>
+        <div className='skills mt-5'>
             <div className='container'>
-                <h2 className='text-center head mb-2 fs-1 fw-bold'>My Skills</h2>
-                <h6 className="mini text-capitalize text-center mb-4">My Technical level</h6>
-                <div className='row pt-0  m-auto d-flex justify-content-center align-items-center'>
-                    <div className='col-12 col-lg-6 mb-5'>
+            {/* <Line /> */}
+                <h2 className='mt-5 text-center head mb-2 fs-1 fw-bold  text-light'>My Skills</h2>
+                <Line />
+                {/* <h6 className="mini text-white-50 text-capitalize text-center mb-5 mb-lg-4">My Technical level</h6> */}
+                <div className='row pt-0 mt-4  m-auto d-flex justify-content-center align-items-center'>
+                    <div className='col-12 col-lg-6 mb-5 mb-lg-4'>
                         <div className='box'>
                             <span className='icon figma position-absolute' ><FaFigma /></span>
                             <span className='effect position-absolute'></span>
@@ -31,7 +34,7 @@ function Skills(props) {
                             </p>
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6 mb-5'>
+                    <div className='col-12 col-lg-6 mb-5 mb-lg-4'>
                         <div className='box'>
                             <span className='effect position-absolute'></span>
                             <div className='icon  position-absolute'>
@@ -50,7 +53,7 @@ function Skills(props) {
                 </div>
 
                 <div className='row  m-auto d-flex justify-content-center align-items-center'>
-                    <div className='col-12 col-lg-6 mb-5'>
+                    <div className='col-12 col-lg-6 mb-5 mb-lg-4'>
                         <div className='box'>
                             <span className='icon code position-absolute' ><FaCode /></span>
                             <span className='effect position-absolute'></span>
@@ -62,7 +65,7 @@ function Skills(props) {
                             </p>
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6 mb-5 '>
+                    <div className='col-12 col-lg-6 mb-5 mb-lg-4 '>
                         <div className='box'>
                             <span className='effect position-absolute'></span>
                             <div className='icon position-absolute text-muted fs-5' >
