@@ -35,13 +35,21 @@ body {
 
 .navbar .navbar-brand {
   font-size: 30px;
-  color: #FFDD03;
+  color: #ffdd03;
 }
 .navbar .navbar-brand:hover {
-  color: #FFDD03;
+  color: #ffdd03;
+}
+.navbar .navbar-toggler {
+  color: #ffdd03;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
 }
 .navbar .collapse .navbar-nav .nav-link {
-  color: #FBFCD4;
+  color: #fbfcd4;
   position: relative;
 }
 .navbar .collapse .navbar-nav .nav-link:hover:before {
@@ -49,7 +57,7 @@ body {
   position: absolute;
   width: 100%;
   height: 1.5px;
-  background-color: #FBFCD4;
+  background-color: #fbfcd4;
   bottom: 4px;
   left: 0;
   right: 0;
@@ -57,7 +65,7 @@ body {
   box-shadow: 0px 0px 1.5px 1px rgb(245, 245, 94);
 }
 .navbar .collapse .navbar-nav .nav-link.active span {
-  color: #FFDD03;
+  color: #ffdd03;
   font-weight: bold;
   font-size: larger;
 }
@@ -68,11 +76,11 @@ body {
   font-size: 18px;
   border-width: 2px;
   border-style: solid;
-  border-color: #FFDD03;
+  border-color: #ffdd03;
   font-weight: 500;
 }
 .navbar .collapse .contact .btn:hover {
-  background-color: #FFDD03;
+  background-color: #ffdd03;
   color: #fff;
 }
 .navbar .collapse .contact .btn:focus {
@@ -103,6 +111,10 @@ body {
 .hero .image:hover {
   transition: 0.4;
   animation: click 2s ease alternate;
+}
+.hero .image .front {
+  left: 20%;
+  top: 15%;
 }
 .hero .icons-social span {
   cursor: pointer;
@@ -157,7 +169,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #eeeeee;
+  background-color: #fff;
   border-radius: 50px 18px 18px 0px;
   padding: 10px;
   position: relative;
@@ -230,16 +242,19 @@ body {
   }
 }
 .footer {
-  background-color: #FBFCD4;
+  background-color: #fbfcd4;
 }
 .footer .title {
-  color: #FBC403;
+  color: #fbc403;
 }
 .footer .copyright {
-  color: #0A0A0A;
+  color: #0a0a0a;
 }
-.footer .links {
-  color: #0A0A0A;
+.footer .links .item a {
+  color: #0a0a0a;
+}
+.footer .links .item a:hover {
+  opacity: 0.5;
 }
 
 .about .title {

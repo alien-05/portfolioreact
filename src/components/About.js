@@ -37,7 +37,7 @@ const About = (props) => {
     // }
 
     return (
-        <div className="about pb-0 pb-lg-5 text-light mt-5 mt-md-0 mb-5 mb-lg-5  d-flex justify-content-center align-items-center ">
+        <div className="about  pb-0 pb-md-5 text-light mt-5 mt-lg-0 mb-5 mb-md-5  d-flex justify-content-center align-items-center ">
             <div className="container">
             {/* <Line /> */}
                 <h2  className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white ">about me</h2>

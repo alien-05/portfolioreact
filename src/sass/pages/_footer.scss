@@ -1,12 +1,19 @@
-.footer{
-    background-color: #FBFCD4;
-    .title{
-        color: #FBC403;
+.footer {
+  background-color: #fbfcd4;
+  .title {
+    color: #fbc403;
+  }
+  .copyright {
+    color: #0a0a0a;
+  }
+  .links {
+    .item {
+      a {
+        color: #0a0a0a;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
     }
-    .copyright{
-        color: #0A0A0A;
-    }
-    .links{
-        color: #0A0A0A;
-    }
+  }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Line from  './Line';
+import Line from './Line';
 import { FaCode, FaCss3, FaFigma, FaHtml5, FaReact } from "react-icons/fa";
 // import Main from './Main';
 
@@ -7,17 +7,20 @@ import { FaCode, FaCss3, FaFigma, FaHtml5, FaReact } from "react-icons/fa";
 function Skills(props) {
     window.onscroll = function () {
         const section = document.querySelector('.skills');
-        const head = document.querySelector('.head')
+        const head = document.querySelector('.head');
+        // const box = document.querySelectorAll('.skills .box')
         if (window.scrollY >= section.offsetTop - 550) {
-            head.classList.add('add');
+            head.classList.add('add')
+            // box.style.opacity = "1";
+            // box.style.backgroundColor = 'red';
         }
     }
 
     return (
-        <div className='skills mt-5'>
+        <div className='skills mt-5 pt-5 pt-md-0 pt-lg-5 '>
             <div className='container'>
-            {/* <Line /> */}
-                <h2 className='mt-5 text-center head mb-2 fs-1 fw-bold  text-light'>My Skills</h2>
+                {/* <Line /> */}
+                <h2 className='mt-0 mt-md-5 mb-0 mb-lg-0 text-center head mb-2 fs-1 fw-bold  text-light'>My Skills</h2>
                 <Line />
                 {/* <h6 className="mini text-white-50 text-capitalize text-center mb-5 mb-lg-4">My Technical level</h6> */}
                 <div className='row pt-0 mt-4  m-auto d-flex justify-content-center align-items-center'>
