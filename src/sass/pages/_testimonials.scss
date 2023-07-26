@@ -1,59 +1,10 @@
-// .testimo {
-//   .swipe {
-//     .swiper {
-//       width: 350px;
-//       height: 300px;
-//     }
-//     .swiper-slide {
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       border-radius: 18px;
-//       font-size: 22px;
-//       font-weight: bold;
-//       color: #fff;
-//       &:nth-child(1n) {
-//         background-color: rgb(206, 17, 17);
-//       }
-//       &:nth-child(2n) {
-//         background-color: rgb(0, 140, 255);
-//       }
-
-//       &:nth-child(3n) {
-//         background-color: rgb(10, 184, 111);
-//       }
-
-//       .swiper-slide:nth-child(4n) {
-//         background-color: rgb(211, 122, 7);
-//       }
-
-//       &:nth-child(5n) {
-//         background-color: rgb(118, 163, 12);
-//       }
-
-//       &:nth-child(6n) {
-//         background-color: rgb(180, 10, 47);
-//       }
-
-//       &:nth-child(7n) {
-//         background-color: rgb(35, 99, 19);
-//       }
-
-//       &:nth-child(8n) {
-//         background-color: rgb(0, 68, 255);
-//       }
-
-//       &:nth-child(9n) {
-//         background-color: rgb(218, 12, 218);
-//       }
-//       &:nth-child(10n) {
-//         background-color: rgb(54, 94, 77);
-//       }
-//     }
-// }
-// }
-
 .testimo {
+  .head {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
   .swiper {
     height: 70vh;
     .swiper-slide {
@@ -83,6 +34,16 @@
       left: 50%;
       transform: translateX(-50%);
       z-index: 100;
+    }
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .mini {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 18px !important;
+    }
+    .desc {
+      font-family: Arial, Helvetica, sans-serif;
     }
     .quote {
       background-color: #f8b600;

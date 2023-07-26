@@ -1,27 +1,30 @@
 .about {
-    .title{
-        color: #ffdd03;
-    }
-    .mini{
-        color: #FBC403;
-    }
+  .title {
+    color: #ffdd03;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mini {
+    color: #fbc403;
+  }
   .back {
     top: 15%;
     left: 10%;
     position: absolute;
     .avatar {
       border-radius: 30px;
-      opacity: .5;
+      opacity: 0.5;
     }
   }
-  .image{
+  .image {
     .avatar {
-        border-radius: 25px;
-      }
+      border-radius: 25px;
+    }
   }
-  .description{
-    p{
+  .description {
+    p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       text-align: justify;
     }
   }
 }
+

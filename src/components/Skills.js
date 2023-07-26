@@ -8,16 +8,13 @@ function Skills(props) {
     window.onscroll = function () {
         const section = document.querySelector('.skills');
         const head = document.querySelector('.head');
-        // const box = document.querySelectorAll('.skills .box')
         if (window.scrollY >= section.offsetTop - 550) {
             head.classList.add('add')
-            // box.style.opacity = "1";
-            // box.style.backgroundColor = 'red';
         }
     }
 
     return (
-        <div className='skills mt-5 pt-5 pt-md-0 pt-lg-5 '>
+        <div className='skills mt-5 pt-5 pt-md-0 pt-lg-5' id='skills'>
             <div className='container'>
                 {/* <Line /> */}
                 <h2 className='mt-0 mt-md-5 mb-0 mb-lg-0 text-center head mb-2 fs-1 fw-bold  text-light'>My Skills</h2>
@@ -30,7 +27,7 @@ function Skills(props) {
                             <span className='effect position-absolute'></span>
                             {/* <span className='head'>x</span> */}
                             <h1 className='title mt-5'>WEB DESIGNER</h1>
-                            <p className='m-auto text-black-50 text-center pb-2 text-capitalize fs-5'>
+                            <p className='desc fs-6 fw-bold ms-md-2 me-md-2 text-black-50 text-center pb-2 text-capitalize '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                 Fuga quod pariatur quis amet vel verout delectus minus
                                 harum ad ipsum perspiciatis explicabo consequatur
@@ -45,8 +42,8 @@ function Skills(props) {
                                 <span className='css me-1'><FaCss3 /></span>
                                 <span className='react'><FaReact /></span>
                             </div>
-                            <h1 className='mt-5'>WEB DEVELOPER</h1>
-                            <p className='m-auto  text-black-50 text-center pb-2 text-capitalize fs-5'>
+                            <h1 className='title mt-5'>WEB DEVELOPER</h1>
+                            <p className='desc fs-6 fw-bold ms-md-2 me-md-2   text-black-50 text-center pb-2 text-capitalize'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                 Fuga quod pariatur quis amet vel verout delectus minus
                                 harum ad ipsum perspiciatis explicabo consequatur
@@ -60,8 +57,8 @@ function Skills(props) {
                         <div className='box'>
                             <span className='icon code position-absolute' ><FaCode /></span>
                             <span className='effect position-absolute'></span>
-                            <h1 className='mt-5'>PROBLEM SOLVING</h1>
-                            <p className='m-auto text-black-50 text-center pb-2 text-capitalize fs-5'>
+                            <h1 className='title mt-5'>PROBLEM SOLVING</h1>
+                            <p className='desc fs-6 fw-bold ms-md-2 me-md-2 text-black-50 text-center pb-2 text-capitalize'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                 Fuga quod pariatur quis amet vel verout delectus minus
                                 harum ad ipsum perspiciatis explicabo consequatur
@@ -76,8 +73,8 @@ function Skills(props) {
                                 <span className='me-1 text-primary'>Fr,</span>
                                 <span className='me-1 text-primary'>Ar</span>
                             </div>
-                            <h1 className='mt-5'>COMUNICATION</h1>
-                            <p className='m-auto text-black-50 text-center pb-2 text-capitalize fs-5'>
+                            <h1 className='title mt-5'>COMUNICATION</h1>
+                            <p className='desc fs-6 fw-bold ms-md-2 me-md-2  text-black-50 text-center pb-2 text-capitalize '>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit
                                 Fuga quod pariatur quis amet vel verout delectus minus
                                 harum ad ipsum perspiciatis explicabo consequatur

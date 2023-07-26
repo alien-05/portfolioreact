@@ -5,42 +5,11 @@ import logo from '../../src/imgs/13.jpg';
 
 
 const About = (props) => {
-    // const [start, setStart] = useState(false);
-    // const secRef = useRef();
-    // let numbers = document.querySelectorAll('.about .nums .num');
-
-    // useEffect(() => {
-    //     // Define the on-scroll callback
-    //     const callback = function () {
-    //         const secTop = secRef.current.offsetTop;
-    //         if (window.scrollY >= secTop - 300) {
-    //             if (!start) {
-    //                 numbers.forEach((num) => handleCounter(num));
-    //             }
-    //             setStart(true);
-    //         }
-    //     };
-    //     // Attach the callback after the component mounts
-    //     window.addEventListener("scroll", callback);
-    //     // Detach the callback before the component unmounts
-    //     return () => window.removeEventListener("scroll", callback);
-    // }, []);
-
-    // function handleCounter(e) {
-    //     let goal = e.dataset.goal;
-    //     const count = setInterval(() => {
-    //         e.textContent++;
-    //         if (e.textContent === goal) {
-    //             clearInterval(count);
-    //         }
-    //     }, 1000 / goal);
-    // }
-
     return (
-        <div className="about  pb-0 pb-md-5 text-light mt-5 mt-lg-0 mb-5 mb-md-5  d-flex justify-content-center align-items-center ">
+        <div className="about pb-0 pb-md-5 text-light mt-5 pt-md-4 mt-lg-0 mb-5 mb-md-5  d-flex justify-content-center align-items-center" id="/about" >
             <div className="container">
-            {/* <Line /> */}
-                <h2  className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white ">about me</h2>
+                {/* <Line /> */}
+                <h2 className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white">about me</h2>
                 <Line />
                 {/* <h6 className="mini  text-capitalize text-center mb-4 text-white-50">my introduction</h6> */}
                 <div className="row d-flex justify-content-center">
@@ -51,7 +20,7 @@ const About = (props) => {
 
                     <div className="col-12 col-lg-6">
                         <div className="description mt-5">
-                            <p className=" text-justify lh-base ms-0 ms-lg-0 mt-3 mt-lg-1 mt-xl-0 mt-xxl-4">
+                            <p className="text-justify lh-base ms-0 ms-lg-0 mt-3 mt-lg-1 mt-xl-0 mt-xxl-4">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
                                 doloribus et cumque voluptatum delectus esse praesentium
                                 blanditiis mollitia quibusdam.

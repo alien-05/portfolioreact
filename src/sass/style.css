@@ -49,6 +49,7 @@ body {
   box-shadow: none;
 }
 .navbar .collapse .navbar-nav .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
   color: #fbfcd4;
   position: relative;
 }
@@ -92,14 +93,16 @@ body {
 }
 .hero .title {
   color: #FFDD03;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero .fonction {
   color: #FBC403;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero .description {
   font-size: 18px;
   text-align: justify;
-  font-family: Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #dbdfd5;
 }
 .hero .image {
@@ -116,10 +119,11 @@ body {
   left: 20%;
   top: 15%;
 }
-.hero .icons-social span {
+.hero .icons-social a {
   cursor: pointer;
 }
-.hero .icons-social span:hover {
+.hero .icons-social a:hover {
+  color: inherit;
   opacity: 0.9;
   position: relative;
   top: 2px;
@@ -156,6 +160,7 @@ body {
   clip-path: polygon(51% 39%, 90% 18%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 18%);
 }
 .skills .head {
+  font-family: Arial, Helvetica, sans-serif;
   color: #ffdd03;
 }
 .skills .head.add {
@@ -191,6 +196,7 @@ body {
   height: 100px;
 }
 .skills .box .title {
+  font-family: Arial, Helvetica, sans-serif;
   color: #0a0a0a;
 }
 .skills .box .effect {
@@ -221,8 +227,8 @@ body {
 .skills .box .icon.code {
   color: #1877f2;
 }
-.skills .box p {
-  text-align: justify;
+.skills .box .desc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @keyframes flow {
   0% {
@@ -246,6 +252,10 @@ body {
 }
 .footer .title {
   color: #fbc403;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .desc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer .copyright {
   color: #0a0a0a;
@@ -259,9 +269,10 @@ body {
 
 .about .title {
   color: #ffdd03;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .about .mini {
-  color: #FBC403;
+  color: #fbc403;
 }
 .about .back {
   top: 15%;
@@ -276,9 +287,16 @@ body {
   border-radius: 25px;
 }
 .about .description p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
 }
 
+.testimo .head {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testimo .desc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .testimo .swiper {
   height: 70vh;
 }
@@ -308,6 +326,16 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
+}
+.testimo .card .title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testimo .card .mini {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px !important;
+}
+.testimo .card .desc {
+  font-family: Arial, Helvetica, sans-serif;
 }
 .testimo .card .quote {
   background-color: #f8b600;
