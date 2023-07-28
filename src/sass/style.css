@@ -291,23 +291,23 @@ body {
   text-align: justify;
 }
 
-.testimo .head {
+.testimonials .head {
   font-family: Arial, Helvetica, sans-serif;
 }
-.testimo .desc {
+.testimonials .desc {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.testimo .swiper {
+.testimonials .swiper {
   height: 70vh;
 }
-.testimo .swiper .swiper-slide {
+.testimonials .swiper .swiper-slide {
   margin: 0;
   color: black;
 }
-.testimo .card {
+.testimonials .card {
   border-radius: 10px 2px 12px 0px;
 }
-.testimo .card:before {
+.testimonials .card:before {
   content: "";
   position: absolute;
   width: 115px;
@@ -318,7 +318,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-.testimo .card img {
+.testimonials .card img {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -327,17 +327,17 @@ body {
   transform: translateX(-50%);
   z-index: 100;
 }
-.testimo .card .title {
+.testimonials .card .title {
   font-family: Arial, Helvetica, sans-serif;
 }
-.testimo .card .mini {
+.testimonials .card .mini {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px !important;
 }
-.testimo .card .desc {
+.testimonials .card .desc {
   font-family: Arial, Helvetica, sans-serif;
 }
-.testimo .card .quote {
+.testimonials .card .quote {
   background-color: #f8b600;
   width: 40px;
   height: 40px;

@@ -8,10 +8,10 @@ import logo from '../../src/imgs/12.jpg';
 function Main(props) {
     return (
         <>
-            <div className="container mb-5 mb-lg-0 mt-0 mt-lg-3 hero d-flex flex-wrap align-items-center" id="main">
+            <div className="main container mb-5 mb-lg-0 mt-0 mt-lg-3 hero d-flex flex-wrap align-items-center" >
                 <div className="row mt-0 mt-lg-5">
                     <div className="col-12 col-lg-6">
-                        <h1 className='title fs-1 text-center text-lg-start fw-bold pt-3 mb-0'>H-I WEB DEVELOPER </h1>
+                        <h1 className='title fs-1 text-center text-lg-start fw-bold pt-3 mb-0'>H.I WEB DEVELOPER </h1>
                         <span className="fonction d-flex justify-content-center justify-content-lg-start fs-3 mt-0 mb-1">I'm a web developer </span>
                         <p className="description  lh-base font-monospace pt-3 pb-0 pb-lg-1 text-white-50 text-capitalize">
                             As a web developer, I am responsible for designing and developing web pages. My primary focus is to create responsive, user-friendly experiences that meet the needs of a diverse online audience.

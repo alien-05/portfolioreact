@@ -6,7 +6,7 @@ import logo from '../../src/imgs/13.jpg';
 
 const About = (props) => {
     return (
-        <div className="about pb-0 pb-md-5 text-light mt-5 pt-md-4 mt-lg-0 mb-5 mb-md-5  d-flex justify-content-center align-items-center" id="/about" >
+        <div className="about pb-0 pb-md-5 text-light mt-5 pt-md-4 mt-lg-0 mb-5 mb-md-5 d-flex justify-content-center align-items-center">
             <div className="container">
                 {/* <Line /> */}
                 <h2 className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white">about me</h2>
@@ -21,12 +21,9 @@ const About = (props) => {
                     <div className="col-12 col-lg-6">
                         <div className="description mt-5">
                             <p className="text-justify lh-base ms-0 ms-lg-0 mt-3 mt-lg-1 mt-xl-0 mt-xxl-4">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                                doloribus et cumque voluptatum delectus esse praesentium
-                                blanditiis mollitia quibusdam.
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                                doloribus et cumque voluptatum delectus esse praesentium
-                                blanditiis mollitia quibusdam.
+                                Hello there! I'm H.I Web Developer, a passionate web developer with a love for
+                                crafting intuitive and dynamic digital experiences. With a keen eye for
+                                design and a knack for coding, I bring ideas to life through clean and efficient code.
                             </p>
                             <div className="nums text-start ms-0 ms-lg-0 d-flex justify-content-center justify-content-lg-start  mt-lg-2 mt-xl-4 w-100">
                                 <div className="one text-center  d-flex flex-column me-4">
@@ -34,7 +31,7 @@ const About = (props) => {
                                     <span> Years experience</span>
                                 </div>
                                 <div className="two text-center  d-flex flex-column me-4">
-                                    <span className="num fw-bold fs-3" data-goal="20">20</span>
+                                    <span className="num fw-bold fs-3" data-goal="20">41</span>
                                     <span>completed projects</span>
                                 </div>
                                 <div className="three text-center  d-flex flex-column">

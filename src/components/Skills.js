@@ -14,9 +14,8 @@ function Skills(props) {
     }
 
     return (
-        <div className='skills mt-5 pt-5 pt-md-0 pt-lg-5' id='skills'>
+        <div className='skills mt-5 pt-5 pt-lg-3 pt-md-0' >
             <div className='container'>
-                {/* <Line /> */}
                 <h2 className='mt-0 mt-md-5 mb-0 mb-lg-0 text-center head mb-2 fs-1 fw-bold  text-light'>My Skills</h2>
                 <Line />
                 {/* <h6 className="mini text-white-50 text-capitalize text-center mb-5 mb-lg-4">My Technical level</h6> */}
@@ -28,9 +27,8 @@ function Skills(props) {
                             {/* <span className='head'>x</span> */}
                             <h1 className='title mt-5'>WEB DESIGNER</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2 text-black-50 text-center pb-2 text-capitalize '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                Fuga quod pariatur quis amet vel verout delectus minus
-                                harum ad ipsum perspiciatis explicabo consequatur
+                                As a web designer, Figma has become my go-to tool for turning ideas into stunning visual realities.
+                                I can effortlessly create and collaborate on designs from anywhere.
                             </p>
                         </div>
                     </div>
@@ -44,9 +42,8 @@ function Skills(props) {
                             </div>
                             <h1 className='title mt-5'>WEB DEVELOPER</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2   text-black-50 text-center pb-2 text-capitalize'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                Fuga quod pariatur quis amet vel verout delectus minus
-                                harum ad ipsum perspiciatis explicabo consequatur
+                                As a front-end developer, I have the exciting role of bringing the visual and interactive elements
+                                of a website to life. I continuously stay updated on the latest web development trends.
                             </p>
                         </div>
                     </div>
@@ -59,9 +56,8 @@ function Skills(props) {
                             <span className='effect position-absolute'></span>
                             <h1 className='title mt-5'>PROBLEM SOLVING</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2 text-black-50 text-center pb-2 text-capitalize'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                Fuga quod pariatur quis amet vel verout delectus minus
-                                harum ad ipsum perspiciatis explicabo consequatur
+                                As a problem solver developer, I thrive on challenges and possess a unique set of skills that enable
+                                me to overcome complex issues and roadblocks in the world of software development.
                             </p>
                         </div>
                     </div>
@@ -75,9 +71,8 @@ function Skills(props) {
                             </div>
                             <h1 className='title mt-5'>COMUNICATION</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2  text-black-50 text-center pb-2 text-capitalize '>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                Fuga quod pariatur quis amet vel verout delectus minus
-                                harum ad ipsum perspiciatis explicabo consequatur
+                                Communication plays a critical role in issue resolution as well. When challenges arise, open
+                                dialogue encourages brainstorming and problem-solving among team members. 
                             </p>
                         </div>
                     </div>
