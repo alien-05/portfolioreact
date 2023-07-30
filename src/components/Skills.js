@@ -1,8 +1,6 @@
 import React from 'react';
 import Line from './Line';
 import { FaCode, FaCss3, FaFigma, FaHtml5, FaReact } from "react-icons/fa";
-// import Main from './Main';
-
 
 function Skills(props) {
     window.onscroll = function () {
@@ -12,7 +10,6 @@ function Skills(props) {
             head.classList.add('add')
         }
     }
-
     return (
         <div className='skills mt-5 pt-5 pt-lg-3 pt-md-0' >
             <div className='container'>
@@ -24,7 +21,6 @@ function Skills(props) {
                         <div className='box'>
                             <span className='icon figma position-absolute' ><FaFigma /></span>
                             <span className='effect position-absolute'></span>
-                            {/* <span className='head'>x</span> */}
                             <h1 className='title mt-5'>WEB DESIGNER</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2 text-black-50 text-center pb-2 text-capitalize '>
                                 As a web designer, Figma has become my go-to tool for turning ideas into stunning visual realities.
@@ -72,7 +68,7 @@ function Skills(props) {
                             <h1 className='title mt-5'>COMUNICATION</h1>
                             <p className='desc fs-6 fw-bold ms-md-2 me-md-2  text-black-50 text-center pb-2 text-capitalize '>
                                 Communication plays a critical role in issue resolution as well. When challenges arise, open
-                                dialogue encourages brainstorming and problem-solving among team members. 
+                                dialogue encourages brainstorming and problem-solving among team members.
                             </p>
                         </div>
                     </div>

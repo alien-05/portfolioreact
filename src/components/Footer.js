@@ -45,7 +45,7 @@ const Footer = (props) => {
                             <li className="item me-2">
                                 <NavLink onClick={() => skills && skills.scrollIntoView({ behavior: 'smooth' })} className="text-decoration-none fw-bold " to="/skills">Skills</NavLink>
                             </li>
-                            <li className="item me-2">
+                            <li className="item">
                                 <NavLink onClick={() => testimo && testimo.scrollIntoView({ behavior: 'smooth' })} className="text-decoration-none fw-bold " to="/testimonials">Testimonials</NavLink>
                             </li>
                         </ul>
