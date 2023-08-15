@@ -92,28 +92,47 @@ body {
   height: calc(100vh - 71px);
 }
 .hero .title {
-  color: #FFDD03;
+  color: #ffdd03;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.1;
+  transition: 0.9s;
+}
+.hero .title.show {
+  opacity: 1;
 }
 .hero .fonction {
-  color: #FBC403;
+  color: #fbc403;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.1;
+  transition: 1.5s;
+}
+.hero .fonction.show {
+  opacity: 1;
 }
 .hero .description {
   font-size: 18px;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #dbdfd5;
+  opacity: 0.1;
+  transition: 2s;
+}
+.hero .description.show {
+  opacity: 1;
 }
 .hero .image {
   width: 50%;
   animation: animate 2s infinite ease alternate;
   transform: rotateY(360deg);
-  transition: 4s;
+  transition: 3s;
+  opacity: 0.1;
 }
 .hero .image:hover {
   transition: 0.4;
   animation: click 2s ease alternate;
+}
+.hero .image.show {
+  opacity: 1;
 }
 .hero .image .front {
   left: 20%;
@@ -121,6 +140,11 @@ body {
 }
 .hero .icons-social a {
   cursor: pointer;
+  opacity: 0.1;
+  transition: 2s;
+}
+.hero .icons-social a.show {
+  opacity: 1;
 }
 .hero .icons-social a:hover {
   color: inherit;

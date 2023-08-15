@@ -1,26 +1,42 @@
-import React from "react";
+import React, { useRef } from "react";
 import Line from "./Line";
 import { Link } from 'react-router-dom';
 import logo from '../../src/imgs/13.jpg';
 
 
 const About = (props) => {
+    const section = useRef();
+    const pic = useRef();
+    const title = useRef();
+    const desc = useRef();
+
+    window.addEventListener('scroll', () => {
+        const targetSection = section.current;
+        const rect = targetSection.getBoundingClientRect();
+
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            pic.current.classList.add('show')
+            title.current.classList.add('show')
+            desc.current.classList.add('show')
+        }
+    })
+
+
     return (
-        <div className="about pb-0 pb-md-5 text-light mt-5 pt-md-4 mt-lg-0 mb-5 mb-md-5 d-flex justify-content-center align-items-center">
+        <div ref={section} className="about pb-0 pb-md-5 text-light mt-5 pt-md-4 mt-lg-0 mb-5 mb-md-5 d-flex justify-content-center align-items-center">
             <div className="container">
-                {/* <Line /> */}
-                <h2 className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white">about me</h2>
+                <h2 ref={title} className="title text-capitalize fw-bold fs-1 text-center mb-2 text-white">about me</h2>
                 <Line />
                 {/* <h6 className="mini  text-capitalize text-center mb-4 text-white-50">my introduction</h6> */}
                 <div className="row d-flex justify-content-center">
-                    <div className="col-12 col-lg-6 position-relative ms-5 ms-lg-0 mb-5 mb-lg-0 d-flex justify-content-center align-items-center">
+                    <div ref={pic} className="col-12 col-lg-6 position-relative ms-5 ms-lg-0 mb-5 mb-lg-0 d-flex justify-content-center align-items-center">
                         <div className="back w-50"><img className="avatar  img-fluid" src={logo} alt="avatar" style={{ clipPath: "inset(0 0 0 12%)" }} /></div>
                         <div className="image w-50 "><img className="avatar  img-fluid" src={logo} alt="avatar" style={{ clipPath: "inset(0 0 0 12%)" }} /></div>
                     </div>
 
                     <div className="col-12 col-lg-6">
                         <div className="description mt-5">
-                            <p className="text-justify lh-base ms-0 ms-lg-0 mt-3 mt-lg-1 mt-xl-0 mt-xxl-4">
+                            <p ref={desc} className="text-justify lh-base ms-0 ms-lg-0 mt-3 mt-lg-1 mt-xl-0 mt-xxl-4">
                                 Hello there! I'm H.I Web Developer, a passionate web developer with a love for
                                 crafting intuitive and dynamic digital experiences. With a keen eye for
                                 design and a knack for coding, I bring ideas to life through clean and efficient code.

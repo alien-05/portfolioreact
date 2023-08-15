@@ -1,43 +1,67 @@
 .hero {
   height: calc(100vh - 71px);
   .title {
-    color: #FFDD03 ;
+    color: #ffdd03;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.1;
+    transition: 0.9s;
+    &.show {
+      opacity: 1;
+    }
   }
   .fonction {
-    color: #FBC403;
+    color: #fbc403;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.1;
+    transition: 1.5s;
+    &.show {
+      opacity: 1;
+    }
   }
   .description {
     font-size: 18px;
     text-align: justify;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-color: #dbdfd5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dbdfd5;
+    opacity: 0.1;
+    transition: 2s;
+    &.show {
+      opacity: 1;
+    }
   }
   .image {
     width: 50%;
     -webkit-animation: animate 2s infinite ease alternate;
     animation: animate 2s infinite ease alternate;
     transform: rotateY(360deg);
-    transition: 4s;
+    transition: 3s;
     &:hover {
       transition: 0.4;
       -webkit-animation: click 2s ease alternate;
       animation: click 2s ease alternate;
     }
-    .front{
-      left:20%;
-      top:15%;
+    opacity: 0.1;
+    &.show {
+      opacity: 1;
+    }
+    .front {
+      left: 20%;
+      top: 15%;
     }
   }
   .icons-social {
-    a{
+    a {
       cursor: pointer;
+      opacity: 0.1;
+      transition: 2s;
+      &.show {
+        opacity: 1;
+      }
       &:hover {
         color: inherit;
         opacity: 0.9;
-        position:relative;
-      top: 2px;
+        position: relative;
+        top: 2px;
       }
     }
   }
