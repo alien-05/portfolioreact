@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 import Main from './Main';
 import Skills from './Skills';
 import About from './About';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
+import Projects from './Projects';
+import Contact from './Contact';
 // import { Routes, Route } from 'react-router-dom';
 
 function App(props) {
@@ -14,7 +16,9 @@ function App(props) {
             <Main />
             <About />
             <Skills />
+            <Projects />
             <Testimonials />
+            <Contact />
             <Footer />
         </>
     );

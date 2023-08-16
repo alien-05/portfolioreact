@@ -13,7 +13,7 @@ import { Pagination } from 'swiper/modules';
 
 export default function App() {
     return (
-        <div className='testimonials ms-0 me-0 mt-5 position-relative'>
+        <div className='testimonials ms-0 me-0 mt-5 pt-5 position-relative'>
             <div className='container'>
                 <h1 className='head text-center text-light mb-0 mt-0'>Testimonials</h1>
                 <Line />
@@ -64,7 +64,7 @@ export default function App() {
                         </div>
                         <div className='col-lg-6 d-none d-lg-block'>
                             <Card title='James A.' fct='Geust'
-                                desc="I can't say enough about [Your Name]'s expertise as a web developer. They took our outdated and
+                                desc="I can't say enough about HI WEB DEVELOPER's expertise as a web developer. They took our outdated and
                                     clunky website and turned it into a sleek, modern, and user-friendly platform. The transformation
                                     was truly remarkable. Highly recommended!"
                             />
