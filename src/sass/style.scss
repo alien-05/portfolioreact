@@ -1,12 +1,13 @@
 @use "./mixins/mixins" as *;
 @use "./globalrules" as *;
-@use './pages/navbar';
-@use './pages/Hero';
-@use './pages/Line';
-@use './pages/Skills';
-@use './pages/projects';
-@use './pages/footer';
-@use './pages/about';
-@use'./pages/testimonials';
+@use "./pages/navbar";
+@use "./pages/Hero";
+@use "./pages/Line";
+@use "./pages/Skills";
+@use "./pages/projects";
+@use "./pages/footer";
+@use "./pages/about";
+@use "./pages/testimonials";
+@use "./pages/contact";
 
-//navbar 
+//navbar

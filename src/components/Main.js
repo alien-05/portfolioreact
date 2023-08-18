@@ -35,8 +35,8 @@ function Main(props) {
                         <span ref={subTitle} className="fonction d-flex justify-content-center justify-content-lg-start fs-3 mt-0 mb-1">
                             <span className="me-2">I'm a</span><Typed
                                 strings={["Web Designer", "Web Developer", "WordPress Developer"]}
-                                typeSpeed={40}
-                                backSpeed={50}
+                                typeSpeed={30}
+                                backSpeed={46}
                                 loop
                             />
                         </span>

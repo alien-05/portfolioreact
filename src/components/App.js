@@ -16,7 +16,7 @@ function App(props) {
             <Main />
             <About />
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
             <Testimonials />
             <Contact />
             <Footer />

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -68,12 +70,11 @@ body {
 .navbar .collapse .navbar-nav .nav-link.active span {
   color: #ffdd03;
   font-weight: bold;
-  font-size: larger;
 }
 .navbar .collapse .contact .btn {
   color: white;
-  padding: 8px 15px;
-  border-radius: 10px;
+  padding: 5px 15px;
+  border-radius: 8px;
   font-size: 18px;
   border-width: 2px;
   border-style: solid;
@@ -186,9 +187,11 @@ body {
 .skills .head {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffdd03;
+  opacity: 0.1;
+  transition: 1.5s;
 }
-.skills .head.add {
-  animation: flow 2s ease;
+.skills .head.show {
+  opacity: 1;
 }
 .skills .mini {
   color: #fbc403;
@@ -218,6 +221,34 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
+}
+.skills .box.box1 {
+  opacity: 0.1;
+  transition: 3s;
+}
+.skills .box.box1.show {
+  opacity: 1;
+}
+.skills .box.box2 {
+  opacity: 0.1;
+  transition: 3.5s;
+}
+.skills .box.box2.show {
+  opacity: 1;
+}
+.skills .box.box3 {
+  opacity: 0.1;
+  transition: 4s;
+}
+.skills .box.box3.show {
+  opacity: 1;
+}
+.skills .box.box4 {
+  opacity: 0.1;
+  transition: 4.5s;
+}
+.skills .box.box4.show {
+  opacity: 1;
 }
 .skills .box .title {
   font-family: Arial, Helvetica, sans-serif;
@@ -254,23 +285,7 @@ body {
 .skills .box .desc {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-@keyframes flow {
-  0% {
-    opacity: 0.2;
-  }
-  25% {
-    opacity: 0.4;
-  }
-  50% {
-    opacity: 0.6;
-  }
-  75% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .projects .title {
   color: #fff;
   opacity: 0.1;
@@ -355,27 +370,63 @@ body {
 }
 
 .about .title {
-  color: #ffdd03;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.1;
+  transition: 1s;
+}
+.about .title.show {
+  opacity: 1;
 }
 .about .mini {
   color: #fbc403;
 }
-.about .back {
+.about .pic {
+  opacity: 0.1;
+  transition: 3.5s;
+}
+.about .pic.show {
+  opacity: 1;
+}
+.about .pic .back {
+  opacity: 0.1;
+  transition: 3s;
+}
+.about .pic .back.animate {
+  opacity: 1;
   top: 15%;
   left: 10%;
   position: absolute;
 }
-.about .back .avatar {
+.about .pic .back .avatar {
   border-radius: 30px;
   opacity: 0.5;
 }
-.about .image .avatar {
+.about .pic .image .avatar {
+  transition: 1s;
   border-radius: 25px;
 }
 .about .description p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
+  opacity: 0.1;
+  transition: 2s;
+}
+.about .description p.show {
+  opacity: 1;
+}
+.about .description .nums {
+  opacity: 0.1;
+  transition: 2.5s;
+}
+.about .description .nums.show {
+  opacity: 1;
+}
+.about .description .download {
+  opacity: 0.1;
+  transition: 2.8s;
+}
+.about .description .download.show {
+  opacity: 1;
 }
 
 .testimonials .head {
@@ -428,4 +479,117 @@ body {
   background-color: #f8b600;
   width: 40px;
   height: 40px;
+}
+
+.Contact {
+  background-color: #dbcfed;
+}
+.Contact .row .head {
+  color: #321c51;
+  font-family: "Poppins", sans-serif;
+}
+.Contact .row .head b {
+  color: #a91079;
+}
+.Contact .row .subtitle {
+  color: #321c51;
+  font-family: "Roboto", sans-serif;
+}
+.Contact .row .services .service {
+  font-family: "Roboto", sans-serif;
+  color: #321c51;
+  border: 1px solid #321c51;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Contact .row .services .active {
+  background-color: #321c51;
+  color: #fdd;
+}
+.Contact .row .form #user {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  border-radius: 8px;
+  background-color: #ececec;
+  color: #000;
+  font-weight: bold;
+}
+.Contact .row .form #user::-moz-placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #user::placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #user:focus {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  outline: none;
+}
+.Contact .row .form #mail {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  border-radius: 8px;
+  background-color: #ececec;
+  color: #000;
+  font-weight: bold;
+}
+.Contact .row .form #mail::-moz-placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #mail::placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #mail:focus {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  outline: none;
+}
+.Contact .row .form #message {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  border-radius: 8px;
+  background-color: #ececec;
+  color: #000;
+  font-weight: bold;
+  caret-color: #321c51;
+}
+.Contact .row .form #message::-moz-placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #message::placeholder {
+  font-weight: bold;
+  color: rgba(50, 28, 81, 0.5);
+}
+.Contact .row .form #message:focus {
+  border: 1px solid rgba(50, 28, 81, 0.5);
+  outline: none;
+}
+.Contact .row .form .btn {
+  border-radius: 8px;
+  background-color: #321c51;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.Contact .row .form .btn:hover {
+  opacity: 0.8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Contact .row .form .btn:focus {
+  box-shadow: none;
+}
+.Contact .row .form .icons .icon {
+  border: 1px solid #321c51;
+  color: #321c51;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.Contact .row .form .icons .icon:hover {
+  background-color: #321c51;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }/*# sourceMappingURL=style.css.map */

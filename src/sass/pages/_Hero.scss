@@ -35,6 +35,14 @@
     animation: animate 2s infinite ease alternate;
     transform: rotateY(360deg);
     transition: 3s;
+    // img{
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0%;
+    //    width: 50%; 
+    //   z-index: -111;
+    //   height: 85vh;
+    // }
     &:hover {
       transition: 0.4;
       -webkit-animation: click 2s ease alternate;
