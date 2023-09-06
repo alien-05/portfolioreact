@@ -1,54 +1,73 @@
-.hero {
-  height: calc(100vh - 71px);
-  .title {
-    color: #ffdd03;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.1;
-    transition: 0.9s;
-    &.show {
-      opacity: 1;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main {
+  height: calc(100vh - 64.05px);
+  background-color: #321c51;
+  z-index: 2;
+  .left {
+    z-index: 2;
+    .title {
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      // opacity: 0.1;
+      transition: 0.9s;
+      &.show {
+        opacity: 1;
+      }
     }
-  }
-  .fonction {
-    color: #fbc403;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.1;
-    transition: 1.5s;
-    &.show {
-      opacity: 1;
+    .fonction {
+      color: #8e72b5;
+      font-family: Arial, Helvetica, sans-serif;
+      // opacity: 0.1;
+      transition: 1.5s;
+      &.show {
+        opacity: 1;
+      }
     }
-  }
-  .description {
-    font-size: 18px;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #dbdfd5;
-    opacity: 0.1;
-    transition: 2s;
-    &.show {
-      opacity: 1;
+    .description {
+      font-size: 18px;
+      text-align: justify;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #dbdfd5;
+      // opacity: 0.1;
+      transition: 2s;
+      &.show {
+        opacity: 1;
+      }
     }
   }
   .image {
-    width: 50%;
-    -webkit-animation: animate 2s infinite ease alternate;
-    animation: animate 2s infinite ease alternate;
-    transform: rotateY(360deg);
+    // width: 50%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+    // -webkit-animation: animate 2s infinite ease alternate;
+    // animation: animate 2s infinite ease alternate;
+    // transform: rotateY(360deg);
     transition: 3s;
-    // img{
-    //   position: absolute;
-    //   top: 0;
-    //   right: 0%;
-    //    width: 50%; 
-    //   z-index: -111;
-    //   height: 85vh;
-    // }
-    &:hover {
-      transition: 0.4;
-      -webkit-animation: click 2s ease alternate;
-      animation: click 2s ease alternate;
+    img {
+      height: calc(100vh - 64.05px);
     }
-    opacity: 0.1;
+    .aa {
+      position: absolute;
+      content: "";
+      background: linear-gradient(90deg, rgb(34, 27, 55,100%), rgb(34, 27, 55,0%));
+      width: 300px;
+      opacity: .9;
+      height: 680px;
+      border-radius: 50%;
+      top: -8%;
+      z-index: -10;
+      left: 0%;
+      transform: rotate(20deg);
+    }
+    // &:hover {
+    //   transition: 0.4;
+    //   -webkit-animation: click 2s ease alternate;
+    //   animation: click 2s ease alternate;
+    // }
+    // opacity: 0.1;
     &.show {
       opacity: 1;
     }
@@ -59,8 +78,9 @@
   }
   .icons-social {
     a {
+      color: #8e72b5;
       cursor: pointer;
-      opacity: 0.1;
+      // opacity: 0.1;
       transition: 2s;
       &.show {
         opacity: 1;
@@ -73,33 +93,34 @@
       }
     }
   }
-}
-@-webkit-keyframes animate {
-  from {
-    transform: translateY(-10px);
-  }
-  to {
-    transform: translateY(25px);
-  }
-}
-
-@keyframes animate {
-  from {
-    transform: translateY(-10px);
-  }
-  to {
-    transform: translateY(25px);
-  }
-}
-
-@-webkit-keyframes click {
-  to {
-    transform: rotateY(180deg);
-  }
-}
-
-@keyframes click {
-  to {
-    transform: rotateY(180deg);
+  .footer {
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 25%);
+    z-index: 10;
+    background-color: #291c3a;
+    bottom: 0;
+    left: 0;
+    // height: 64.05px;
+    font-family: "Roboto", sans-serif;
+    .exp {
+      .num {
+        font-size: 50px;
+      }
+      .txt {
+        color: #c0afd8;
+      }
+    }
+    .prjt {
+      .num {
+        font-size: 50px;
+      }
+      .txt {
+        color: #c0afd8;
+      }
+    }
+    .tools {
+      span {
+        color: #fff;
+      }
+    }
   }
 }

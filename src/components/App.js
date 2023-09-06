@@ -5,8 +5,10 @@ import Skills from './Skills';
 import About from './About';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
-import Projects from './Projects';
+// import Projects from './Projects';
 import Contact from './Contact';
+// import Line from './Line';
+
 // import { Routes, Route } from 'react-router-dom';
 
 function App(props) {
@@ -19,6 +21,7 @@ function App(props) {
             {/* <Projects /> */}
             <Testimonials />
             <Contact />
+            {/* <Line /> */}
             <Footer />
         </>
     );
