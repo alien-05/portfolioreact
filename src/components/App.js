@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Main from './Main';
 import Skills from './Skills';
 import About from './About';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 import Footer from './Footer';
 // import Projects from './Projects';
 import Contact from './Contact';
@@ -19,7 +19,7 @@ function App(props) {
             <About />
             <Skills />
             {/* <Projects /> */}
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Contact />
             {/* <Line /> */}
             <Footer />

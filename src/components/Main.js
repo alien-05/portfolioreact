@@ -44,9 +44,8 @@ function Main(props) {
                                     loop
                                 />
                             </span>
-                            <p className="description  lh-base font-monospace pt-2 pb-0  text-white-50 text-capitalize">
-                                As a web developer, I am responsible for designing and developing web pages. My primary focus is to create responsive, user-friendly experiences that meet the needs of a diverse online audience.
-                            </p>
+                            <p className="description text-light lh-base font-monospace pt-2 pb-0  text-white-50 text-capitalize">
+                                As A Web Developer, I Am Responsible For Designing And Developing Web Pages.                             </p>
                             <div className="col-12 icons-social">
                                 <Link className="instagram fs-3 me-3 " to={'https://instagram.com/hi__webdesign?igshid=ZDc4ODBmNjlmNQ=='} target="_blank"><AiOutlineInstagram /></Link>
                                 <Link className="github fs-3 me-3 " to={'https://github.com/alien-05'} target="_blank"><AiFillGithub /></Link>
